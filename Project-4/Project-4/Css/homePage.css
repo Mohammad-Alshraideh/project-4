@@ -1,0 +1,143 @@
+﻿body {
+}
+#main {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+    #main h1 {
+        float: right;
+    }
+
+    #main img {
+        height: 600px;
+        width: 700px;
+    }
+
+#second {
+    text-align: center;
+    background-color: #ebebeb;
+    height: 450px;
+    margin: 10px;
+}
+
+#third {
+    margin-top: 100px;
+    height: 600px;
+    font-size: 40px
+}
+
+.cardd img {
+    height: 200px;
+}
+
+#Label1 {
+}
+
+#footer1 {
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+    #footer1 img {
+        height: 80px;
+        border-radius: 50px;
+    }
+
+#seconddiv {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin: 10px;
+    height: 200px;
+}
+
+.seconddivs {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: start;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px
+}
+
+#navbarlogo img {
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.seconddiv :hover {
+    background-color: pink;
+}
+
+#welcome {
+    margin-top: 100px;
+}
+
+#goSurvey {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ebebeb;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+    #goSurvey:hover {
+        background-color: #EDCFCC;
+        color: white;
+    }
+
+.navbar-collapse {
+    justify-content: end;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+    .navbar-collapse :hover {
+        font-size: large;
+    }
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 480px) {
+
+    #main {
+        background-color: white;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+        #main img {
+            height: 300px;
+            width: 300px;
+        }
+
+    #footer1 {
+        height: 100px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+    }
+
+    #second {
+        height: 600px;
+    }
+
+    #welcome {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
+    #main {
+        background-color: white;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,138 @@
+﻿
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    background-color: #455A64;
+    width: 100%;
+    color: white;
+    font-family: Arial;
+}
+
+.logo {
+    width: 200px;
+    font-size: 20px;
+    padding-left: 2%;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+    nav ul li {
+    }
+
+        nav ul li a {
+            padding: 10px 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: .5s;
+            color: white;
+            text-decoration: none;
+        }
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0px;
+        background-color: #455A64;
+        width: 100vw;
+        color: white;
+        font-family: Arial;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 0px;
+        font-size: 8px;
+    }
+
+    .logo {
+        width: 200px;
+        font-size: 10px;
+        padding-left: 2%;
+        font-weight: bold;
+    }
+
+    nav ul li a {
+        padding: 2px 5px;
+    }
+}
+.body {
+    display: flex;
+    justify-content: center;
+    background-color: #EDCFCC;
+   margin-bottom:2%;
+}
+.containerQuestion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2rem 2rem;
+    flex-direction: column;
+    height: 90%;
+    margin-top: 4%;
+    box-shadow: -13px -11px 2.75px #f2e3e3;
+}
+
+    .containerQuestion p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.textboxQuestion {
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 10px;
+    height: 22px;
+    padding-left: 8px;
+}
+
+#Submit {
+    width: 20%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2e3e3;
+}
+
+.Edit {
+    background-color: #E8C4C4;
+    border: none;
+    width: 60px;
+    padding: 2px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Delete {
+    background-color: #E8C4C4;
+    border: none;
+    width: 60px;
+    padding: 2px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Submit {
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #E8C4C4;
+}

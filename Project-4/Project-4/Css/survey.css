@@ -1,0 +1,102 @@
+﻿body {
+    background-image: url('../image/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 96vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#con {
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    border: solid 2px #D9D9D9;
+    box-shadow: -19px 20px #F4F4F4;
+    position: relative;
+}
+
+#radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*border:solid black;*/
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+}
+
+#Label1 {
+    font-size: 40px;
+    position: absolute;
+    top: 26%;
+    left: 10%;
+}
+
+.lbl {
+    font-size: 30px;
+}
+
+.button {
+    font-size: 20px;
+    background-color: #EDCFCC;
+    border: solid 1px #D9D9D9;
+    cursor: pointer;
+}
+
+#Button1 {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    width: 10%;
+    height: 8%;
+}
+
+#Button2 {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    width: 10%;
+    height: 8%;
+}
+
+.button:active {
+    transform: translate(2px, 2px);
+}
+
+#thx {
+    border: solid black;
+    position: absolute;
+    font-size: 100px;
+    top: 20%;
+    left: 28%;
+    height: 50%;
+    display: none;
+}
+
+#Button3 {
+    position: absolute;
+    left: 20%;
+    top: 75%;
+    width: 22%;
+    height: 15%;
+}
+
+#Button4 {
+    position: absolute;
+    left: 58%;
+    top: 75%;
+    width: 22%;
+    height: 15%;
+}
+
+
+#RadioButtonList1 {
+    display: flex;
+    flex-direction: row;
+}

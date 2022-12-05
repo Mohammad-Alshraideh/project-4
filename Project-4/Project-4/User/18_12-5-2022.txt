@@ -1,0 +1,5 @@
+how are you?: Poor
+why?: Poor
+what?: Good
+no?: Poor
+mohammad_alshraideh@gmail.com
